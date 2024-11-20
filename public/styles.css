@@ -1,0 +1,153 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+#bookmarkForm {
+  margin: 20px;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+
+#bookmarksList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.category-group {
+  margin: 0;
+  height: fit-content;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border-left: 5px solid;
+  transition: transform 0.2s ease;
+  position: relative;
+}
+
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.category-title {
+  margin: 0;
+  cursor: pointer;
+  user-select: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.category-content {
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.category-content.collapsed {
+  max-height: 0;
+}
+
+.bookmark-item {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  cursor: grab;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background: white;
+}
+
+.bookmark-item.dragging {
+  opacity: 0.5;
+  cursor: grabbing;
+  background: #f0f0f0;
+}
+
+.bookmark-actions {
+  float: right;
+}
+
+.empty-category {
+  padding: 10px;
+  color: #666;
+  font-style: italic;
+  text-align: center;
+}
+
+.category-group.drag-over {
+  background-color: #f7f7f7;
+  border: 2px dashed #666 !important;
+}
+
+input,
+select,
+button {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+button {
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+button i {
+  margin: 0;
+  font-size: 14px;
+}
+
+.bookmark-actions button {
+  padding: 5px 8px;
+}
+
+button:hover i {
+  color: #ff4444;
+}
+
+.category-actions {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.drag-handle {
+  cursor: grab;
+  padding: 5px 8px;
+}
+
+.drag-handle:active {
+  cursor: grabbing;
+}
+
+.category-group.dragging {
+  opacity: 0.7;
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.drag-handle i {
+  color: #666;
+}
+
+.drag-handle:hover i {
+  color: #333;
+}

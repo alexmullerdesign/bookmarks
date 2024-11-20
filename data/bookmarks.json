@@ -1,0 +1,52 @@
+{
+  "bookmarks": [
+    {
+      "id": 1732040948230,
+      "title": "Glitch",
+      "url": "https://glitch.com/",
+      "category": "Inspiration"
+    },
+    {
+      "id": 1732040994254,
+      "title": "Digi24",
+      "url": "https://www.digi24.ro/",
+      "category": "Inspiration"
+    },
+    {
+      "id": 1732041856966,
+      "title": "Facebook",
+      "url": "https://facebook.com",
+      "category": "Science"
+    },
+    {
+      "id": 1732101635492,
+      "title": "Google",
+      "url": "https://google.com",
+      "category": "Uncategorized"
+    },
+    {
+      "id": 1732101651346,
+      "title": "Facebook",
+      "url": "https://facebook.com",
+      "category": "Uncategorized"
+    },
+    {
+      "id": 1732101984261,
+      "title": "Awwards",
+      "url": "https://awwwards.com",
+      "category": "Learning"
+    },
+    {
+      "id": 1732103145185,
+      "title": "MDN",
+      "url": "https://developer.mozilla.org/",
+      "category": "Learning"
+    },
+    {
+      "id": 1732103968252,
+      "title": "Udemy",
+      "url": "https://www.udemy.com/",
+      "category": "Science"
+    }
+  ]
+}

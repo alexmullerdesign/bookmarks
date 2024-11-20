@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "name": "Uncategorized",
+      "color": "#ffffff",
+      "order": 9999
+    },
+    {
+      "name": "Inspiration",
+      "color": "#77dd40",
+      "order": 0
+    },
+    {
+      "name": "Learning",
+      "color": "#21d1d4",
+      "order": 1
+    },
+    {
+      "name": "Science",
+      "color": "#ffffff",
+      "order": 2
+    }
+  ]
+}
